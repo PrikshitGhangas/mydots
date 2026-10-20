@@ -1,0 +1,14 @@
+"\e[A": history-search-backward
+"\e[B": history-search-forward
+
+# Completion behaviour
+set completion-ignore-case on
+set show-all-if-ambiguous on
+set colored-stats on
+set visible-stats on
+
+TAB: menu-complete
+"\e[Z": menu-complete-backward
+
+# Ctrl+Backspace → delete previous word
+"\C-h": backward-kill-word

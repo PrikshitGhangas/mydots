@@ -1,0 +1,6 @@
+{
+    "colorscheme": "geany",
+    "ftoptions": false,
+    "lsp.server": "c=clangd,c++=clangd",
+    "softwrap": true
+}

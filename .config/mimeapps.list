@@ -1,0 +1,17 @@
+[Default Applications]
+x-scheme-handler/msteams=teams.desktop
+text/html=vivaldi-stable.desktop
+x-scheme-handler/http=vivaldi-stable.desktop
+x-scheme-handler/https=vivaldi-stable.desktop
+x-scheme-handler/about=vivaldi-stable.desktop
+x-scheme-handler/unknown=vivaldi-stable.desktop
+x-scheme-handler/claude-cli=claude-code-url-handler.desktop
+application/pdf=vivaldi-stable.desktop
+application/x-zerosize=micro.desktop
+x-scheme-handler/antigravity=antigravity.desktop
+
+[Added Associations]
+application/pdf=org.pwmt.zathura-pdf-mupdf.desktop;firefox.desktop;vivaldi-stable.desktop;
+image/jpeg=org.gimp.GIMP.desktop;vivaldi-stable.desktop;firefox.desktop;
+image/png=org.gimp.GIMP.desktop;firefox.desktop;
+application/x-zerosize=micro.desktop;

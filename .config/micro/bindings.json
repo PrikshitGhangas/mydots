@@ -1,0 +1,5 @@
+{
+    "\u001bctrlback": "DeleteWordLeft",
+    "Ctrl-Delete": "DeleteWordRight",
+    "Alt-c": "command:lspcompletion"
+}

@@ -1,0 +1,7 @@
+# This file contains fish universal variable definitions.
+# VERSION: 3.0
+SETUVAR --export MANPAGER:less
+SETUVAR --export PAGER:less
+SETUVAR --export --path PATH:/home/prykshift/\x2epyenv/bin\x1e/home/prykshift/\x2epyenv/shims\x1e/usr/local/sbin\x1e/usr/local/bin\x1e/usr/bin\x1e/opt/android\x2dsdk/platform\x2dtools\x1e/var/lib/flatpak/exports/bin\x1e/usr/lib/jvm/default/bin\x1e/usr/bin/site_perl\x1e/usr/bin/vendor_perl\x1e/usr/bin/core_perl
+SETUVAR --export PYENV_ROOT:/home/prykshift/\x2epyenv
+SETUVAR __fish_initialized:4300

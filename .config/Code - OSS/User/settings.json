@@ -1,0 +1,9 @@
+{
+    "workbench.editor.empty.hint": "hidden",
+    "redhat.telemetry.enabled": true,
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
+    "explorer.confirmDelete": false,
+    "chat.disableAIFeatures": true,
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "terminal.integrated.initialHint": false
+}

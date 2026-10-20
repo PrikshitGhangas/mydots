@@ -1,0 +1,5 @@
+[user]
+	name = prykshift
+	email = prykshift@localhost
+[init]
+	defaultBranch = main

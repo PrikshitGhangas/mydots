@@ -1,0 +1,99 @@
+* {
+    bg:          rgba(16, 18, 30, 0.65);
+    bg-alt:      rgba(28, 29, 45, 0.85);
+    fg:          #cdd6f4;
+    muted:       #9399b2;
+    accent:      #b4befe;
+    selected:    rgba(180, 190, 254, 0.14);
+
+    background-color: transparent;
+    text-color: @fg;
+
+    font: "JetBrainsMono Nerd Font 12";
+}
+
+window {
+    width: 600px;
+
+    background-color: @bg;
+
+    border: 1px;
+    border-color: @accent;
+    border-radius: 18px;
+
+    padding: 14px;
+}
+
+mainbox {
+    background-color: transparent;
+
+    spacing: 12px;
+    padding: 6px;
+}
+
+inputbar {
+    background-color: @bg-alt;
+
+    border-radius: 12px;
+    padding: 14px 18px;
+
+    spacing: 10px;
+    children: [ prompt, entry ];
+}
+
+prompt {
+    background-color: transparent;
+    text-color: @accent;
+
+    str: "󰍉 ";
+}
+
+entry {
+    background-color: transparent;
+    text-color: @fg;
+
+    placeholder: "Search applications...";
+    placeholder-color: @muted;
+}
+
+listview {
+    background-color: transparent;
+
+    columns: 1;
+    lines: 7;
+
+    spacing: 5px;
+    padding: 4px 0px;
+
+    scrollbar: false;
+}
+
+element {
+    background-color: transparent;
+
+    border-radius: 10px;
+    padding: 10px 12px;
+
+    spacing: 12px;
+}
+
+element selected {
+    background-color: @selected;
+}
+
+element-icon {
+    background-color: transparent;
+
+    size: 26px;
+}
+
+element-text {
+    background-color: transparent;
+    text-color: @fg;
+
+    vertical-align: 0.5;
+}
+
+element-text selected {
+    text-color: @accent;
+}

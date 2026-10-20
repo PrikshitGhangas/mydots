@@ -1,0 +1,25 @@
+# OS and editor artifacts
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Neovim & Micro runtime/backup data
+nvim/backups/
+micro/backups/
+micro/buffers/
+*.log
+
+# Sensitive credentials & keys
+*.pem
+*.key
+*.token
+.env
+.env.*
+id_rsa*
+id_ed25519*
+credentials
+secrets*

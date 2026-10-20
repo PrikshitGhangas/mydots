@@ -1,0 +1,23 @@
+{
+    "C Boilerplate": {
+        "prefix": "main",
+        "body": [
+            "#include <stdio.h>",
+            "",
+            "int main() {",
+            "    $0",
+            "    return 0;",
+            "}"
+        ],
+        "description": "Boilerplate for a standard C program"
+    },
+    "workbench.editor.empty.hint": "hidden",
+    "python.defaultInterpreterPath": "/usr/bin/python",
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
+    "workbench.colorTheme": "Dark Modern",
+    "files.associations": {
+        "*.java": "java"
+    },
+    "redhat.telemetry.enabled": true
+}
