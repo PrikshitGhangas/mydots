@@ -1,10 +1,10 @@
-# 🌌 prykshift's Dotfiles (`mydots`)
+# prykshift's Dotfiles (`mydots`)
 
 Personal dotfiles and system configurations for **Hyprland** with **Caelestia Shell**, paired with customized shells, modern terminals, Neovim IDE setup, launchers, and system monitors.
 
 ---
 
-## 📸 Overview & Stack
+## Overview & Stack
 
 | Component | Software | Description |
 | :--- | :--- | :--- |
@@ -23,7 +23,7 @@ Personal dotfiles and system configurations for **Hyprland** with **Caelestia Sh
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 The repository is organized in an intuitive XDG hierarchy:
 
@@ -71,7 +71,7 @@ mydots/
 
 ---
 
-## ⌨️ Hyprland Keybindings Cheatsheet
+## Hyprland Keybindings Cheatsheet
 
 ### Applications & Launchers
 | Shortcut | Action |
@@ -96,7 +96,7 @@ mydots/
 
 ---
 
-## ⚡ Neovim Setup Highlights
+## Neovim Setup Highlights
 
 - **Plugin Manager:** `lazy.nvim`
 - **Completion:** `blink.cmp` with Luasnip integration and duplicate filter
@@ -115,7 +115,7 @@ mydots/
 
 ---
 
-## 🚀 Installation & Restoration
+## Installation & Restoration
 
 ### 1. Clone the repository
 ```bash
@@ -143,6 +143,6 @@ You can choose between creating symlinks (recommended for development) or copyin
 
 ---
 
-## 🔒 Security & Privacy
+## Security & Privacy
 
 All files in this repository have been audited to ensure no sensitive credentials, private SSH keys, authorization tokens, or bash history are stored.
